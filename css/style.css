@@ -1,0 +1,61 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Section */
+/* Card */
+
+.ms_card {
+    width: 100%;
+}
+/* Card img */
+
+.ms_card img {
+    position: relative;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+}
+.circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    background-color: lightgrey;
+    border-radius: 50%;
+    position: absolute;
+    top: 10px;
+    right: 5px;
+}
+
+/* Hotel info */
+
+.hotel_info {
+    padding: 1rem 2rem;
+}
+h1 {
+    margin-bottom: 10px;
+}
+.reviews {
+    align-items: center;
+    display: flex;
+    height: 25px;
+}
+.green_ball {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #05aa6c;
+    margin-right: 2px;
+    display: inline-block;
+}
+.reviews_amount {
+    margin-left: 0.5rem;
+    border-bottom: 1px dotted lightgray;
+}
+.security_measures span {
+    border-bottom: 1px dotted lightgray;
+}
